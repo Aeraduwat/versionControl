@@ -93,6 +93,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     };
 
+    @
+
     /*se crea una clase para solicitar la ultima ubicacion conocida, utilizando LocationManager, que
      provee de servicios de posicionamiento
       */
