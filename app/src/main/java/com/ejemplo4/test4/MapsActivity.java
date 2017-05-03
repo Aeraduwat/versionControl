@@ -25,6 +25,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     private Marker puntero;
+    private Marker pos1;
     double latitude = 0.0;
     double longitude = 0.0;
 
@@ -45,6 +46,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //tras crear el metodo mi Ubicacion se ingresa el metodo que actualiza la ubicacion
         MiUbicacion();
     }
+
+
 
     private void AgregarMarcador(double latitude, double longitude) {
         LatLng coordenadas = new LatLng(latitude, longitude);
@@ -92,8 +95,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         }
     };
-
-    @
 
     /*se crea una clase para solicitar la ultima ubicacion conocida, utilizando LocationManager, que
      provee de servicios de posicionamiento
